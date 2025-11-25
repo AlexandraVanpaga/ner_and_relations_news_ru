@@ -1,0 +1,19 @@
+# Директории с данными и моделями
+/data/
+ /models/
+
+# Переменные окружения
+.env
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# Виртуальное окружение
+.venv/

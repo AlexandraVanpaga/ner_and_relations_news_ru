@@ -1,0 +1,15 @@
+**Проект: Многоцелевая модель для NER + event-CLS**
+
+**Цель:**
+
+Создание объединённой (multi-task) модели, решающей **NER (BIO, token-level)** и **CLS (document-level multihot событий/отношений)** на датасете NEREL.
+
+Активация виртуальной среды, установка зависимостей
+# Домашняя машина на windows
+#.venv\Scripts\activate.bat 
+
+source .venv/bin/activate
+pip install -r requirements.txt
+
+#Скачивание сырых данных
+python -m src.get_raw_data

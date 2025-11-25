@@ -1,0 +1,26 @@
+АНАЛИЗ ОШИБОК КЛАССИФИКАЦИИ ОТНОШЕНИЙ
+================================================================================
+
+FALSE POSITIVES:
+   Тип отношения  Количество
+           AGENT          14
+    ORIGINS_FROM          14
+      LOCATED_IN          11
+  PARTICIPANT_IN           7
+          AGE_IS           5
+HEADQUARTERED_IN           3
+   DATE_OF_DEATH           2
+       HAS_CAUSE           1
+
+FALSE NEGATIVES:
+   Тип отношения  Количество
+       ORGANIZES           9
+       HAS_CAUSE           8
+     IDEOLOGY_OF           8
+       MEMBER_OF           8
+        OWNER_OF           7
+    ABBREVIATION           6
+           KNOWS           6
+    CONVICTED_OF           6
+HEADQUARTERED_IN           4
+      FOUNDED_BY           4

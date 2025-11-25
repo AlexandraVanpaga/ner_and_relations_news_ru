@@ -1,0 +1,36 @@
+АНАЛИЗ ОШИБОК NER
+================================================================================
+
+         Класс  False Positives  False Negatives  Всего ошибок
+       I-EVENT              105               67           172
+       B-EVENT               90               73           163
+  I-PROFESSION               60               74           134
+B-ORGANIZATION               69               34           103
+I-ORGANIZATION               45               52            97
+     B-COUNTRY               47               26            73
+  B-PROFESSION               39               33            72
+       I-AWARD               18               29            47
+         I-LAW               12               33            45
+        B-DATE               22               21            43
+      B-PERSON               16               23            39
+        B-CITY               27                8            35
+        I-DATE               25                5            30
+ B-NATIONALITY               23                5            28
+    B-FACILITY               15               11            26
+
+Истинный класс Предсказанный класс  Количество
+             O             B-EVENT          77
+             O             I-EVENT          63
+       B-EVENT                   O          51
+       I-EVENT                   O          42
+             O        B-PROFESSION          24
+  I-PROFESSION                   O          17
+I-ORGANIZATION        I-PROFESSION          17
+       I-AWARD                   O          16
+  I-PROFESSION      B-ORGANIZATION          15
+         I-LAW                   O          15
+  I-PROFESSION           B-COUNTRY          15
+             O      B-ORGANIZATION          13
+B-ORGANIZATION                   O          12
+             O        I-PROFESSION          11
+     B-COUNTRY       B-NATIONALITY          11
